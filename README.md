@@ -17,6 +17,7 @@ This repository contains a Docker Compose configuration for setting up a develop
 1. Clone this repository:
 
 ```bash
+docker network create your-network # default is 'devdev'
 git clone https://github.com/hunter-ji/postgres-redis-dev-docker-compose.git
 cd postgres-redis-dev-docker-compose
 ```
